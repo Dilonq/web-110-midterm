@@ -1,0 +1,10 @@
+{
+    "en":{
+        "title":"Title",
+        "button":"Click me"
+    },
+    "de":{
+        "title":"Titel",
+        "button":"Klick mich"
+    }
+}
