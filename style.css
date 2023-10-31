@@ -184,8 +184,8 @@ article {
     padding: 1px 1px;
     margin: 1rem 1rem;
 
-    max-width: 1300px;
-    max-height: 1300px;
+    max-width: 1000px;
+    max-height: 1000px;
 }
 
 .colorful {
@@ -202,7 +202,7 @@ article {
 }
 
 img {
-    max-width:1200px;
+    max-width:900px;
     max-height:900px;
     width: auto;
     height: auto;
