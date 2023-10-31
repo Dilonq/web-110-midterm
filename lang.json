@@ -1,10 +1,81 @@
 {
     "en":{
-        "title":"Title",
-        "button":"Click me"
+        "title":"Midterm Project Website",
+        "langButton":"Deutsch",
+        "header":"Midterm Project Website",
+        "cc":"© DJH Midterm Project Website 2023",
+
+        "nav1":"Portfolio",
+        "nav2":"Home",
+        "nav3":"About and Sources",
+
+        "hello":"I'm ",
+        "name":"Dylan Harris",
+        "intro1":"and I make stuff with HTML, CSS, and Javascript.",
+        "intro2":"I've been creating since 1852, back when the only computers were made of steel and were the size of a building.",
+        "intro3":"(That's also the year I was born.)",
+
+        "contact-header":"Contact me!",
+        "contact1":"My phone number is 1-800-555-123",
+        "contact2":"My email address is dylanh@midtermprojectwebsite2023.com",
+
+        "portfolio-header":"portfolio header",
+        "portfolio1":"prrwqd",
+
+        "sources-header":"Sources used for this website",
+        "sources1":" - UnusedCSS",
+        "sources2":" - Stack Overflow",
+        "sources3":" - CSS Flexbox in 100 Seconds",
+
+        "mypf":"My Portfolio",
+
+        "beer":"Beer",
+        "beer-desc":"I actually invented Beer. Pretty cool, right?",
+        "kraft":"Kraft Website",
+        "kraft-desc":"This was one of the first websites I made, advertising a fictional restaurant serving exclusively variations of Kraft mac and cheese.",
+        "kraft-link":"Link",
+        "bakery":"DTCC WEB-110 Bakery",
+        "bakery-desc":"This was a collaboratively made website with other students in the WEB-110 class at Durham Technical Community College.",
+        "bakery-link":"Link"
     },
     "de":{
-        "title":"Titel",
-        "button":"Klick mich"
+        "title":"Halbjahresprojekt",
+        "langButton":"English",
+        "header":"Halbjahresprojekt",
+        "cc":"© DJH Midterm Project Website 2023",
+
+        "nav1":"Portfolio",
+        "nav2":"Startseite",
+        "nav3":"Informationen und Quellen",
+
+        "hello":"Ich heiße ",
+        "name":"Dylan Harris",
+        "intro1":"und ich mache Sachen mit HTML, CSS und Javascript.",
+        "intro2":"Ich baue seit 1852, als die einzigen Computer noch aus Stahl waren und die Größe eines Gebäudes hatten.",
+        "intro3":"(Das ist auch das Jahr, in dem ich geboren wurde.)",
+
+        "contact-header":"Kontaktieren Sie mich!",
+        "contact1":"Meine Telefonnummer lautet 1-800-555-123",
+        "contact2":"Meine E-Mail Adresse lautet dylanh@midtermprojectwebsite2023.com",
+
+        "portfolio-header":"portfolio header",
+        "portfolio1":"ee",
+
+        "sources-header":"Für diese Website verwendete Quellen",
+        "sources1":" - UnusedCSS",
+        "sources2":" - Stack Overflow",
+        "sources3":" - CSS Flexbox in 100 Seconds",
+
+        "mypf":"Mein Portfolio",
+
+        "beer":"Bier",
+        "beer-desc":"Ich habe das Bier erfunden. Ziemlich cool, oder?",
+        "kraft":"Kraft Webseite",
+        "kraft-desc":"Dies ist eine der ersten Websites, die ich erstellt habe. Sie wirbt für ein fiktives Restaurant, das nur Variationen von Kraft-Makkaroni und -Käse serviert.",
+        "kraft-link":"Link",
+        "bakery":"DTCC WEB-110 Bäckerei",
+        "bakery-desc":"Diese Website wurde in Zusammenarbeit mit anderen Studenten des Kurses WEB-110 am Durham Technical Community College erstellt.",
+        "bakery-link":"Link"
+    
     }
 }

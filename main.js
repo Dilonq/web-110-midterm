@@ -1,6 +1,15 @@
-function start(){
-    document.cookie="language=de";
-    updateLanguage();
+async function start(){
+    //hide website until the site loads
+    document.body.style.visibility = "hidden";
+
+    //set up everything
+    if (!getCookie("language")){
+        document.cookie="language=en";
+    }
+    await updateLanguage();
+
+    //now that the side has loaded, show the website
+    document.body.style.visibility = "visible";
 }
 
 function changeLanguage(){
@@ -14,7 +23,7 @@ function changeLanguage(){
 }
 
 async function updateLanguage(){
-    let data;
+    var data;
 
     await fetch('lang.json')
         .then((response) => response.json())
@@ -24,16 +33,23 @@ async function updateLanguage(){
 
 
     let lang = getCookie("language");
-    data = data[lang];
 
-    //change html text
-    for (var key in data){
-        document.getElementById(key).textContent=data[key];
+    // change html text
+    for (var key in data[lang]){
+        let elem = document.getElementById(key);
+        if (elem){//error handling: check if it exists first
+            console.log(elem.textContent);
+            elem.textContent=data[lang][key];
+        }
     }
 
     //change dynamic attributes
-    document.documentElement.lang = lang;
-    document.title = data["title"];
+    if (lang){
+        document.documentElement.lang = lang;
+    }
+    if (data[lang]["title"]){
+        document.title = data[lang]["title"];
+    }
 }
 
 function getCookie(name){
